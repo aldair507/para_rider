@@ -1,0 +1,128 @@
+body{
+    background: rgb(221, 217, 214);
+   
+}
+
+.cerrar{
+    display: none;
+ 
+}
+
+.modal{
+    position:absolute;
+    background: white;
+   top: 50%;
+   left: 50%;
+   transform: translate(-50%, -50%);
+   padding: 20px;
+   
+}
+
+
+
+
+/* Estilos para el contenedor principal */
+#midiv {
+    background-color: #f0f0f0;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    width: 300px;
+    margin: 20px auto;
+    text-align: left;
+}
+
+/* Estilos para las etiquetas */
+label {
+    display: block;
+    margin-bottom: 5px;
+    font-weight: bold;
+}
+
+/* Estilos para los campos de entrada */
+input[type="number"],
+input[type="text"] {
+    width: 100%;
+    padding: 5px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+}
+
+/* Estilos para el botón "calcular" */
+#calcular {
+    background-color: #007bff;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#calcular:hover {
+    background-color: #0056b3;
+}
+
+/* Estilos para el botón "Cerrar" */
+#añadir2 {
+    background-color: #ccc;
+    color: #333;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    border-radius: 3px;
+}
+
+#añadir2:hover {
+    background-color: #999;
+}
+
+/* Estilos para la tabla */
+table {
+    border-collapse: collapse;
+    width: 100%;
+    margin-top: 20px;
+}
+
+table, th, td {
+    border: 1px solid #ccc;
+}
+
+th, td {
+    padding: 8px;
+    text-align: left;
+}
+
+/* Estilos para el contenedor de la tabla */
+.center {
+    text-align: center;
+}
+
+
+/* Estilos para el botón "abrir modal" */
+#abrirmodal {
+    background-color: #007bff; /* Color de fondo */
+    color: #fff; /* Color del texto */
+    border: none; /* Quita el borde del botón */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    border-radius: 3px; /* Bordes redondeados */
+}
+
+#abrirmodal:hover {
+    background-color: #0056b3; /* Color de fondo al pasar el ratón */
+}
+
+/* Estilos para el botón "Cerrar" */
+#cerrarmodal {
+    background-color: #ff0000; /* Color de fondo rojo */
+    color: #fff; /* Color del texto blanco */
+    border: none; /* Quita el borde del botón */
+    padding: 10px 20px; /* Espaciado interno (arriba/abajo, izquierda/derecha) */
+    cursor: pointer; /* Cambia el cursor al pasar el ratón sobre el botón */
+    border-radius: 3px; /* Bordes redondeados */
+}
+
+#cerrarmodal:hover {
+    background-color: #cc0000; /* Color de fondo al pasar el ratón */
+}

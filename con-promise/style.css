@@ -1,0 +1,68 @@
+/* Estilos para el contenedor del formulario */
+.formulario {
+    max-width: 400px;
+    margin: 0 auto;
+    padding: 20px;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+    background-color: #f9f9f9;
+  }
+  
+  /* Estilos para las etiquetas */
+  label {
+    font-weight: bold;
+  }
+  
+  /* Estilos para los campos de entrada de texto y número */
+  input[type="text"],
+  input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 3px;
+  }
+  
+  /* Estilos para el botón "Calcular" */
+  #calcular {
+    background-color: #007bff;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  #calcular:hover {
+    background-color: #0056b3;
+  }
+  
+  /* Estilos para el contenedor de la tabla */
+  #miTablaContainer {
+    margin-top: 20px;
+  }
+  
+  /* Estilos para la tabla */
+  .miTabla {
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  /* Estilos para las celdas de encabezado */
+  .miTabla th {
+    background-color: #f2f2f2;
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  /* Estilos para las celdas de datos */
+  .miTabla td {
+    border: 1px solid #ddd;
+    padding: 8px;
+    text-align: left;
+  }
+  
+  
+  
